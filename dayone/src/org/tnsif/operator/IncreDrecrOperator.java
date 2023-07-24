@@ -11,10 +11,10 @@ public class IncreDrecrOperator {
 		System.out.println(x);//24
 		System.out.println(y);//7
 		
-		int res2=x-- + --y; 
+		int res2=x-- + --y; //24+6
 		System.out.println(res2);
-		System.out.println(x);
-		System.out.println(y);
+		System.out.println(x);//23
+		System.out.println(y);//6
 
 	}
 
